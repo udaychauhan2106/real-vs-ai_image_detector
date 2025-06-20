@@ -9,7 +9,7 @@ st.set_page_config(page_title='AI Image Detector' , layout='centered')
 
 
 def load_model():
-  model=tf.keras.models.load_model("finetuned_ai_detector.h5")
+  model=tf.keras.models.load_model("finetuned_ai_detector.keras")
   return model
 
 model=load_model()
