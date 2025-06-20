@@ -7,11 +7,11 @@ import os
 
 st.set_page_config(page_title='AI Image Detector' , layout='centered')
 
-print("✅ File exists:", os.path.exists("finetuned_ai_detector_v2.keras"))
-print("📦 File size:", os.path.getsize("finetuned_ai_detector_v2.keras"), "bytes")
+print("✅ File exists:", os.path.exists("finetuned_ai_detector.keras"))
+print("📦 File size:", os.path.getsize("finetuned_ai_detector.keras"), "bytes")
 
 def load_model():
-  model=tf.keras.models.load_model("finetuned_ai_detector_v2.keras")
+  model=tf.keras.models.load_model("finetuned_ai_detector.keras")
   return model
 
 model=load_model()
