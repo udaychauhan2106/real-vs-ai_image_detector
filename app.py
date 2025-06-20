@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-st.set_page_config(page_tittle='AI Image Detector' , layout='centred')
+st.set_page_config(page_title='AI Image Detector' , layout='centred')
 
 
 def load_model():
