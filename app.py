@@ -4,10 +4,6 @@ import numpy as np
 from PIL import Image
 import os
 
-if not os.path.exists("finetuned_ai_detector.keras"):
-    st.error("Model file not found! Please upload 'finetuned_ai_detector.keras'.")
-    st.stop()
-
 st.set_page_config(page_title='AI Image Detector' , layout='centered')
 
 
