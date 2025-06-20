@@ -4,7 +4,6 @@ import numpy as np
 from PIL import Image
 import os
 
-st.write("Current directory files:", os.listdir())
 
 st.set_page_config(page_title='AI Image Detector' , layout='centered')
 
